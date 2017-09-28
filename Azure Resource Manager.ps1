@@ -13,7 +13,7 @@ Switch-AzureMode -Name AzureResourceManager
 
 $subscriptionID = (Get-AzureAccount -Name 'milan@kt.rs').subscriptions
 $TenantID = (Get-AzureAccount -Name 'milan@kt.rs').Tenants
-$cred = Get-Credential -UserName milan@kt.rs -Message 'Azure user MILAN'
+$cred = Get-Credential 
 Add-AzureAccount -Credential $cred
 
 Get-AzureAccount
