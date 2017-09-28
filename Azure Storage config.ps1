@@ -9,8 +9,6 @@ Get-AzureSubscription
 Get-AzureAccount | fl *
 Get-AzureStorageAccount | fl StorageAccountName,Endpoints
 
-$primaryStorageAccountKey = '0BhEpQhnuT+VOs8xOvdWL1kmbh3lrE4/WCMvvgM+F7cVwbhmskTboLuchHyh2dunXaEiiBXu0LqWY9JfJ0fblw=='
-
 
     
 Get-AzureStorageContainer -Name vhds 
