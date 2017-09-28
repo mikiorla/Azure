@@ -12,7 +12,7 @@ Import-Module $AZUREmodulepath
 #Get-Command -Module Azure
 
 $KT_subscription = '1d3a2dce-8063-48fe-af1f-22c062ee0555'
-$cred = Get-Credential -UserName milan@kt.rs -Message 'Azure user MILAN'
+$cred = Get-Credential
 Add-AzureAccount -Credential $cred
 
 #Get-AzureAffinityGroup
